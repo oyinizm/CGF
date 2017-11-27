@@ -68,9 +68,7 @@ body{font-family: 'Pacifico', cursive;}
 .carousel .item {
   height: 500px;
   background-color: #777;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  width: auto;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -78,9 +76,8 @@ body{font-family: 'Pacifico', cursive;}
   left: 0;
   width: 100%;
   height: auto;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  min-width:100%;
+  
 }
 
 .second-slide {
