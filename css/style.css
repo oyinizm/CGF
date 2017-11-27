@@ -68,6 +68,9 @@ body{font-family: 'Pacifico', cursive;}
 .carousel .item {
   height: 500px;
   background-color: #777;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -75,8 +78,16 @@ body{font-family: 'Pacifico', cursive;}
   left: 0;
   width: 100%;
   height: auto;
+  background-size: cover;
+  background-position: center center;
 }
 
+.second-slide {
+    background: url(img/slide2.jpg) no-repeat center center fixed; 
+}
+.third-slide {
+    background: url(img/slide3.jpg) no-repeat center center fixed; 
+}
 
 /* BODY CONTENT
 -------------------------------------------------- */
