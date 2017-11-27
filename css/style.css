@@ -70,21 +70,16 @@ body{font-family: 'Pacifico', cursive;}
   background-color: #777;
   width: auto;
 }
-.carousel-inner > .item > img {
+.carousel-inner > .item > a > img {
   position: absolute;
-  top: 0;
+  top: ;
   left: 0;
   width: 100%;
   height: auto;
   min-width:100%;
+  background-size: cover;
+  background-position: center;
   
-}
-
-.second-slide {
-    background: url(img/slide2.jpg) no-repeat center center fixed; 
-}
-.third-slide {
-    background: url(img/slide3.jpg) no-repeat center center fixed; 
 }
 
 /* BODY CONTENT
