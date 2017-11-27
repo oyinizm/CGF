@@ -1,0 +1,113 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body{font-family: 'Pacifico', cursive;}
+
+
+/* FORM STYLE
+-------------------------------------------------- */
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;}
+
+.form-signin-heading {
+ text-align: center;
+}
+
+.btn-primary {
+    background-color:#ff118c;
+    border-color: #e60b7c;} /* button color */
+
+.btn-primary:hover{background-color: #e60b7c; border-color: #e60b7c; } /* button hover color */
+
+
+/* NAVBAR STYLE
+-------------------------------------------------- */
+
+.navbar {margin-bottom: 0px;}
+
+.navbar-default .navbar-nav>li>a:hover {color: #ff118c;} /*menu color*/
+
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+/* BODY CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.post .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.post h2 {
+  font-weight: normal;
+}
+.post .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.content-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  padding: 10px;
+}
+
+footer{margin-top: 40px;
+text-align: center;}
+
+
+
